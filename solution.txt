@@ -1,2 +1,12 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+Function - consecutiveSubstrings
+
+- When given a string the function returns all consecutive substrings that include at least one of the characters 
+- Use two nested loops. An outer loop that picks the start index. The inner loop picks the end index
+- Slice the string from start to end, then push the result array.
+- Return it with all the consecutive substrings
+
+Time Complexity: O(n^2)
+- Outter loop runs n times
+- Inner loop runs up to n times for each other iteration 
+
+Space Complexity: O(n^2) for storing all substrings
